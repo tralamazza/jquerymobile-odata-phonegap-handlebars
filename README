@@ -1,0 +1,8 @@
+Testing phonegap (device access), jquery mobile (ui), datajs (odata) and handlebars (templating).
+
+
+phonegap and datajs work as intended, which is awesome.
+
+jquery mobile has some neat features and simplicity, but for 2 things: hash routing and dynamic styling.
+
+handlebars is seriously amazing (fast and powerful)
