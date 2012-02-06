@@ -1,4 +1,4 @@
-/*     PhoneGap v1.4.0 */
+/*     PhoneGap v1.4.1 */
 /*
        Licensed to the Apache Software Foundation (ASF) under one
        or more contributor license agreements.  See the NOTICE file
