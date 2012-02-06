@@ -35,6 +35,7 @@
 		722E374D14D9D46600A0508C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E374C14D9D46600A0508C /* AppDelegate.m */; };
 		722E375014D9D46600A0508C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E374F14D9D46600A0508C /* MainViewController.m */; };
 		722E375214D9D46600A0508C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722E375114D9D46600A0508C /* MainViewController.xib */; };
+		722E375B14D9D4F500A0508C /* www in Resources */ = {isa = PBXBuildFile; fileRef = 722E375A14D9D4F500A0508C /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +53,10 @@
 		722E372014D9D46600A0508C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		722E372214D9D46600A0508C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		722E372414D9D46600A0508C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		722E372814D9D46600A0508C /* ODataViewer-Info.plist */ = {isa = PBXFileReference; path = "ODataViewer-Info.plist"; sourceTree = "<group>"; };
+		722E372814D9D46600A0508C /* ODataViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ODataViewer-Info.plist"; sourceTree = "<group>"; };
 		722E372A14D9D46600A0508C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		722E372C14D9D46600A0508C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		722E372E14D9D46600A0508C /* ODataViewer-Prefix.pch */ = {isa = PBXFileReference; path = "ODataViewer-Prefix.pch"; sourceTree = "<group>"; };
+		722E372E14D9D46600A0508C /* ODataViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ODataViewer-Prefix.pch"; sourceTree = "<group>"; };
 		722E372F14D9D46600A0508C /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		722E373414D9D46600A0508C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		722E373814D9D46600A0508C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -66,12 +67,13 @@
 		722E374414D9D46600A0508C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		722E374614D9D46600A0508C /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		722E374814D9D46600A0508C /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		722E374B14D9D46600A0508C /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		722E374B14D9D46600A0508C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		722E374C14D9D46600A0508C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		722E374E14D9D46600A0508C /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		722E374E14D9D46600A0508C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		722E374F14D9D46600A0508C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		722E375114D9D46600A0508C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		722E375414D9D46600A0508C /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		722E375414D9D46600A0508C /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		722E375A14D9D4F500A0508C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		722E36FA14D9D46600A0508C = {
 			isa = PBXGroup;
 			children = (
+				722E375A14D9D4F500A0508C /* www */,
 				722E372614D9D46600A0508C /* ODataViewer */,
 				722E370B14D9D46600A0508C /* Frameworks */,
 				722E370914D9D46600A0508C /* Products */,
@@ -299,6 +302,7 @@
 				722E374714D9D46600A0508C /* Capture.bundle in Resources */,
 				722E374914D9D46600A0508C /* PhoneGap.plist in Resources */,
 				722E375214D9D46600A0508C /* MainViewController.xib in Resources */,
+				722E375B14D9D4F500A0508C /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +392,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -406,7 +410,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -423,6 +427,7 @@
 				GCC_PREFIX_HEADER = "ODataViewer/ODataViewer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "ODataViewer/ODataViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -450,6 +455,7 @@
 				GCC_PREFIX_HEADER = "ODataViewer/ODataViewer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "ODataViewer/ODataViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
