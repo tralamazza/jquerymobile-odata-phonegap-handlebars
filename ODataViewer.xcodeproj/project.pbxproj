@@ -250,6 +250,7 @@
 				722E370414D9D46600A0508C /* Sources */,
 				722E370514D9D46600A0508C /* Frameworks */,
 				722E370614D9D46600A0508C /* ShellScript */,
+				724BAF9A14E07A680060D859 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -321,6 +322,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
 			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, into the Project Navigator of Xcode 4. Make sure you select the second radio-button: 'Create folder references for any added folders' (which will create a blue folder)\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+		724BAF9A14E07A680060D859 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "hash uglifyjs 2>&- || { echo >&2 \"uglifyjs not found.\"; exit 0; }\n    \nWWWFOLDER=\"$PROJECT_DIR/www\"\n\ncat $WWWFOLDER/app/vendor/*.js | uglifyjs -o $WWWFOLDER/app/vendor.js";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -492,6 +506,7 @@
 				722E375914D9D46600A0508C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
